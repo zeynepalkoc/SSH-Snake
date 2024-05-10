@@ -114,13 +114,13 @@ In addition to the ability to create visualizations of the network that SSH-Snak
 The third tool also generates a command that can be used to connect from destination A to destination B. For example:
 
 ```
-$ python3 tools/shortest-path-create-chain.py --file output.log --src 'jrogers@10.2.3.4' --dest 'root@10.25.49.1'
+$ python3 tools/shortest-path-create-chain.py --file output.log --src 'zeynep@10.2.3.4' --dest 'root@10.25.49.1'
 
-Shortest path from jrogers@10.2.3.4 to root@10.25.49.1: jrogers@10.2.3.4->user@10.44.39.21->user@10.19.29.54->root@10.25.49.1
+Shortest path from zeynep@10.2.3.4 to root@10.25.49.1: jrogers@10.2.3.4->user@10.44.39.21->user@10.19.29.54->root@10.25.49.1
 
 [..]
 
-ssh -i "/home/jrogers/.ssh/key" user@10.44.39.21 'sudo ssh -i "/root/.ssh/id_rsa" user@10.19.29.54 'ssh -i "/tmp/key" root@10.25.49.1''
+ssh -i "/home/zeynep/.ssh/key" user@10.44.39.21 'sudo ssh -i "/root/.ssh/id_rsa" user@10.19.29.54 'ssh -i "/tmp/key" root@10.25.49.1''
 ```
 
 # Snake.sh vs Snake.nocomments.sh
