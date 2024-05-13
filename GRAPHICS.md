@@ -37,4 +37,4 @@ Cytoscape is another tool that can be used to generate interesting graphs. Using
 
 |![A graph visualizing the relation between systems using SSH](tools/SSH-Snake-CytoScape.svg)The blue nodes indicate the _destination_ can connect to itself (user@host<-->user@host). The red edges indicate that the connection is bi-directional (user1@host1<-->user2@host2).|
 
-Not only can you create an image like this in Cytoscape (using the "yFiles hierarchical Layout"), you can also create webpages like this one: [https://megamansec.github.io/SSH-Snake/](https://megamansec.github.io/SSH-Snake/#/).
+
