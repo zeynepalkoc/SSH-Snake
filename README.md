@@ -51,10 +51,7 @@ SSH-Snake can either be downloaded or piped into bash:
 bash ./Snake.nocomments.sh
 ```
 
-or
 
-```bash
-```
 
 # About SSH-Snake
 
